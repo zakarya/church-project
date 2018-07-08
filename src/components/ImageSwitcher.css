@@ -1,0 +1,17 @@
+
+.switcher-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.thumbnail-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.caption {
+  display: flex;
+  flex-wrap: wrap;
+}
