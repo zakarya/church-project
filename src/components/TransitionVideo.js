@@ -11,8 +11,10 @@ class TransitionVideo extends Component {
     return (
       <div>
         <YouTube
-          videoId="rkLhm_nTnwE"
+          videoId="dMcQidZdaOk"
           opts={opts}
+          containerClassName="transition-video"
+          onReady={this.props.getVideoTarget}
         />
       </div>
     );

@@ -18,10 +18,20 @@ class App extends Component {
       images,
       selectedImage: images[0],
       content,
+      videoTarget: null,
     };
   }
 
   render() {
+    const playTransition = (event) => {
+      event.target.stopVideo();
+      this.state.videoTarget.playVideo();
+    };
+
+    const getVideoTarget = (event) => {
+      this.setState({ videoTarget: event.target });
+    };
+
     return (
       <div className="root">
         <Title />
@@ -35,9 +45,9 @@ class App extends Component {
         <h1>
           Tile Layout
         </h1>
-        <TileVideo />
+        <TileVideo playTransition={playTransition} />
         <ContentContainer content={this.state.content[1]} />
-        <TransitionVideo />
+        <TransitionVideo getVideoTarget={getVideoTarget} />
         <ContentContainer content={this.state.content[2]} />
       </div>
     );
