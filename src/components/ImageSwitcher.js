@@ -21,7 +21,7 @@ const ImageSwitcher = (props) => {
       </div>
       <div className="caption">
         <h4>
-          {selectedImage.alt}
+          {selectedImage.title}
         </h4>
       </div>
     </div>

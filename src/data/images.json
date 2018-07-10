@@ -2,51 +2,61 @@
   {
     "url": "/src/images/photo01.jpg",
     "alt": "River Rocks",
-    "thumb": "/src/images/photo01_tn.jpg"
+    "thumb": "/src/images/photo01_tn.jpg",
+    "title": "Beautiful Landscape"
   },
   {
     "url": "/src/images/photo02.jpg",
     "alt": "Lake Hills",
-    "thumb": "/src/images/photo02_tn.jpg"
+    "thumb": "/src/images/photo02_tn.jpg",
+    "title": "Beautiful Landscape"
   },
   {
     "url": "/src/images/photo03.jpg",
     "alt": "Snowy Walk",
-    "thumb": "/src/images/photo03_tn.jpg"
+    "thumb": "/src/images/photo03_tn.jpg",
+    "title": "Beautiful Landscape"
   },
   {
     "url": "/src/images/photo04.jpg",
     "alt": "Bridge River",
-    "thumb": "/src/images/photo04_tn.jpg"
+    "thumb": "/src/images/photo04_tn.jpg",
+    "title": "Beautiful Landscape"
   },
   {
     "url": "/src/images/photo05.jpg",
     "alt": "Canoes Lake",
-    "thumb": "/src/images/photo05_tn.jpg"
+    "thumb": "/src/images/photo05_tn.jpg",
+    "title": "Beautiful Landscape"
   },
   {
     "url": "/src/images/photo06.jpg",
     "alt": "River Desert",
-    "thumb": "/src/images/photo06_tn.jpg"
+    "thumb": "/src/images/photo06_tn.jpg",
+    "title": "Beautiful Landscape"
   },
   {
     "url": "/src/images/photo07.jpg",
     "alt": "Bridge Cars",
-    "thumb": "/src/images/photo07_tn.jpg"
+    "thumb": "/src/images/photo07_tn.jpg",
+    "title": "Beautiful Landscape"
   },
   {
     "url": "/src/images/photo08.jpg",
     "alt": "House Lake",
-    "thumb": "/src/images/photo08_tn.jpg"
+    "thumb": "/src/images/photo08_tn.jpg",
+    "title": "Beautiful Landscape"
   },
   {
     "url": "/src/images/photo09.jpg",
     "alt": "River Mountains",
-    "thumb": "/src/images/photo09_tn.jpg"
+    "thumb": "/src/images/photo09_tn.jpg",
+    "title": "Beautiful Landscape"
   },
   {
     "url": "/src/images/photo10.jpg",
     "alt": "Eifel Tower",
-    "thumb": "/src/images/photo10_tn.jpg"
+    "thumb": "/src/images/photo10_tn.jpg",
+    "title": "Beautiful Landscape"
   }
 ]
