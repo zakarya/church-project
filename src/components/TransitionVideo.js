@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
 import YouTube from 'react-youtube';
 
-class TileVideo extends Component {
+class TransitionVideo extends Component {
   render() {
     const opts = {
-      width: 320,
-      height: 180,
+      width: 960,
+      height: 540,
     };
 
     return (
       <div>
         <YouTube
-          videoId="dMcQidZdaOk"
+          videoId="rkLhm_nTnwE"
           opts={opts}
         />
       </div>
@@ -19,4 +19,4 @@ class TileVideo extends Component {
   }
 }
 
-export default TileVideo;
+export default TransitionVideo;

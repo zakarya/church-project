@@ -5,28 +5,26 @@ class ContentContainer extends Component {
   constructor(props) {
     super(props);
 
+    this.heading = this.props.content.heading;
     this.content = this.createMarkup();
   }
 
   createMarkup() {
-    return { __html: this.props.content };
+    return { __html: this.props.content.content };
   }
 
   render() {
     return (
-      <div
-        className="content-container"
-        dangerouslySetInnerHTML={this.content}
-      />
+      <div className="content-container">
+        <h2>
+          {this.heading}
+        </h2>
+        <div
+          dangerouslySetInnerHTML={this.content}
+        />
+      </div>
     );
   }
 }
-// const ContentContainer = (props) => {
-//   const content = props.content;
-
-//   return (
-//     <div dangerouslySetInnerHTML={content} />
-//   );
-// };
 
 export default ContentContainer;
