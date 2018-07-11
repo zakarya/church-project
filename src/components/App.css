@@ -8,6 +8,10 @@ html {
   line-height: 1.375; /* ~22px */
 }
 
+h1 {
+  margin-left: 200px !important;
+}
+
 audio,
 canvas,
 iframe,
@@ -19,4 +23,19 @@ video {
 
 .root {
   width: 100%;
+}
+
+.article-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.tile-top-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 100px;
+}
+
+.tile-bottom-container {
+  margin-bottom: 200px;
 }

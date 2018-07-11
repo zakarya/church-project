@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import YouTube from 'react-youtube';
 
+import './ArticleVideo.css';
+
 class ArticleVideo extends Component {
   constructor(props) {
     super(props);
@@ -23,7 +25,7 @@ class ArticleVideo extends Component {
     };
 
     return (
-      <div>
+      <div className="article-video">
         <YouTube
           videoId="fCBusmHtFuU"
           opts={opts}

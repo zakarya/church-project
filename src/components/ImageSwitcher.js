@@ -14,15 +14,20 @@ const ImageSwitcher = (props) => {
   ));
 
   return (
-    <div className="switcher-container">
-      <img src={selectedImage.url} alt={selectedImage.alt} />
-      <div className="thumbnail-container">
-        {thumbnails}
+    <div>
+      <div className="switcher-container">
+        <img src={selectedImage.url} alt={selectedImage.alt} />
+        <div className="thumbnail-container">
+          {thumbnails}
+        </div>
       </div>
       <div className="caption">
         <h4>
           {selectedImage.title}
         </h4>
+        <h5 className="sub-caption">
+          Mollis Condimentum Ultricies Bibendum
+        </h5>
       </div>
     </div>
   );

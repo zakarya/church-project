@@ -40,15 +40,21 @@ class App extends Component {
           onImageSelect={selectedImage => this.setState({ selectedImage })}
           selectedImage={this.state.selectedImage}
         />
-        <ContentContainer content={this.state.content[0]} />
-        <ArticleVideo />
+        <div className="article-container">
+          <ContentContainer content={this.state.content[0]} />
+          <ArticleVideo />
+        </div>
         <h1>
           Tile Layout
         </h1>
-        <TileVideo playTransition={playTransition} />
-        <ContentContainer content={this.state.content[1]} />
-        <TransitionVideo getVideoTarget={getVideoTarget} />
-        <ContentContainer content={this.state.content[2]} />
+        <div className="tile-top-container">
+          <TileVideo playTransition={playTransition} />
+          <ContentContainer content={this.state.content[1]} />
+        </div>
+        <div className="tile-bottom-container">
+          <TransitionVideo getVideoTarget={getVideoTarget} />
+          <ContentContainer content={this.state.content[2]} />
+        </div>
       </div>
     );
   }

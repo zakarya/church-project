@@ -1,6 +1,8 @@
 import React from 'react';
 import YouTube from 'react-youtube';
 
+import './TileVideo.css';
+
 const TileVideo = (props) => {
   const opts = {
     width: 320,
@@ -8,7 +10,7 @@ const TileVideo = (props) => {
   };
 
   return (
-    <div>
+    <div className="tile-video">
       <YouTube
         videoId="dMcQidZdaOk"
         opts={opts}

@@ -1,0 +1,19 @@
+@import '../variables.css';
+
+.article-video {
+  margin-right: 200px;
+  display: flex;
+  /* justify-content: right; */
+  flex-direction: column;
+  /* flex-direction: row-reverse; */
+}
+
+.article-video > h4 {
+  margin-bottom: 5px;
+  width: 320px;
+}
+
+.article-video > p {
+  margin-top: 5px;
+  width: 320px;
+}

@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import YouTube from 'react-youtube';
 
+import './TransitionVideo.css';
+
 class TransitionVideo extends Component {
   render() {
     const opts = {
@@ -9,7 +11,7 @@ class TransitionVideo extends Component {
     };
 
     return (
-      <div>
+      <div className="transition-video">
         <YouTube
           videoId="dMcQidZdaOk"
           opts={opts}
